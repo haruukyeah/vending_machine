@@ -1,0 +1,13 @@
+git clone https://github.com/haruukyeah/vending_machine.git
+
+git checkout -b home_work_25
+
+git add .
+git commit -m "Add payment interface"
+
+git commit -m "Refactor AppRunner to use interface"
+
+git checkout master
+git merge home_work_25
+
+git push
